@@ -1,10 +1,14 @@
 com/sqa/opencartAutomation/models/DataUser.java
  com.sqa.opencartAutomation.models.DataUser
+com/sqa/opencartAutomation/steps/ValidateAccountStep.java
+ com.sqa.opencartAutomation.steps.ValidateAccountStep
+com/sqa/opencartAutomation/pageObjets/ValidateAccountPage.java
+ com.sqa.opencartAutomation.pageObjets.ValidateAccountPage
 com/sqa/opencartAutomation/pageObjets/HomeOpencartPage.java
  com.sqa.opencartAutomation.pageObjets.HomeOpencartPage
-com/sqa/opencartAutomation/steps/HomeOpencartStep.java
- com.sqa.opencartAutomation.steps.HomeOpencartStep
 com/sqa/opencartAutomation/pageObjets/RegisterOpencartPage.java
  com.sqa.opencartAutomation.pageObjets.RegisterOpencartPage
 com/sqa/opencartAutomation/steps/RegisterOpencartStep.java
  com.sqa.opencartAutomation.steps.RegisterOpencartStep
+com/sqa/opencartAutomation/steps/HomeOpencartStep.java
+ com.sqa.opencartAutomation.steps.HomeOpencartStep

@@ -10,17 +10,18 @@ public class HomeOpencartStep {
     HomeOpencartPage homeOpencartPage;
 
     @Step
-    public void openBrowser(){
+    public void openBrowserStep(){
         homeOpencartPage.open();
     }
 
     @Step
-    public void selectCreateNewAccount(){
+    public void selectCreateNewAccountStep(){
         homeOpencartPage.clickUserButton();
         homeOpencartPage.clickCreteNewAccountOption();
     }
 
-    public void pagesRestriction(){
+    @Step
+    public void pagesRestrictionStep(){
             homeOpencartPage.clickButtonAccessRestrictionConfiguration();
             homeOpencartPage.clickButtonAccessRestriction();
     }

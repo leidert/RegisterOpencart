@@ -12,7 +12,7 @@ public class RegisterOpencartStep {
     RegisterOpencartPage registerOpencartPage;
 
     @Step
-    public void registerUser(DataUser dataUser){
+    public void registerUserStep(DataUser dataUser){
         registerOpencartPage.setInputFirstNameRegister(dataUser.getFirstNameUser());
         registerOpencartPage.setInputLastNameRegister(dataUser.getLastNameUser());
         registerOpencartPage.setInputEmailRegister(dataUser.getEmailUser());
@@ -23,7 +23,8 @@ public class RegisterOpencartStep {
         registerOpencartPage.clickButtonContinueRegister();
     }
 
-    public void validateFailedMessage(){
+    @Step
+    public void validateFailedMessageStep(){
         registerOpencartPage.waitForCondition().until(ExpectedConditions.invisibilityOfElementLocated(registerOpencartPage.getMessageFailure()));
     }
 }

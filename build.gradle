@@ -1,6 +1,16 @@
-plugins {
-    id 'java'
+buildscript {
+    repositories {
+        mavenLocal()
+        mavenCentral()
+        jcenter()
+    }
+    dependencies {
+        classpath("net.serenity-bdd:serenity-gradle-plugin:2.0.80")
+    }
 }
+apply plugin: 'java'
+apply plugin: 'idea'
+apply plugin: 'net.serenity-bdd.aggregator'
 
 group 'org.sqa'
 version '1.0-SNAPSHOT'
@@ -20,5 +30,5 @@ dependencies {
     testCompileOnly 'org.projectlombok:lombok:1.18.20'
     testAnnotationProcessor 'org.projectlombok:lombok:1.18.20'
 }
-
+test.finalizedBy(aggregate)
 gradle.startParameter.continueOnFailure = true
