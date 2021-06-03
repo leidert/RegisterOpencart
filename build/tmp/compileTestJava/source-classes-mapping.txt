@@ -1,0 +1,4 @@
+com/sqa/opencartAutomation/runners/RegisterOpencartRunner.java
+ com.sqa.opencartAutomation.runners.RegisterOpencartRunner
+com/sqa/opencartAutomation/stepdefinitions/RegisterOpencartStepDefinition.java
+ com.sqa.opencartAutomation.stepdefinitions.RegisterOpencartStepDefinition
