@@ -9,4 +9,5 @@ Feature: opencart register
     Then He verifies the <message> on the screen
     Examples:
       | firstNameUser | lastNameUser | emailUser       | telephoneUser | passwordUser | passwordConfirm | message |
-      | leider        | tanos        | leider@mail.com | 777777        | 12345        | 12345           | hola mundo |
+      | leider        | tanos        | leider6@mail.com | 777777        | 12345        | 12345           | Congratulations! Your new account has been successfully created! |
+      | Arturo       | tanos        | leider10@mail.com | 777777        | 12345        | 12345           | Congratulations! Your new account has been successfully created! |
