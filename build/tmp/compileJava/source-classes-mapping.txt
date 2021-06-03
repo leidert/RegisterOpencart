@@ -1,0 +1,6 @@
+com/sqa/opencartAutomation/models/DataUser.java
+ com.sqa.opencartAutomation.models.DataUser
+com/sqa/opencartAutomation/pageObjets/HomeOpencartPage.java
+ com.sqa.opencartAutomation.pageObjets.HomeOpencartPage
+com/sqa/opencartAutomation/steps/HomeOpencartStep.java
+ com.sqa.opencartAutomation.steps.HomeOpencartStep
