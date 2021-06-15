@@ -6,7 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 
 public class HomeOpencartStep {
 
-    @Autowired
+    //@Autowired
     HomeOpencartPage homeOpencartPage;
 
     @Step

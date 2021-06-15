@@ -4,12 +4,12 @@ import org.openqa.selenium.By;
 
 public class RegisterOpencartPage extends PageObject {
 
-    By inputFirstNameRegister = By.xpath("//input[@id = 'input-firstname']");
-    By inputLastNameRegister = By.xpath("//input[@id = 'input-lastname']");
-    By inputEmailRegister = By.xpath("//input[@id = 'input-email']");
-    By inputTelephoneRegister = By.xpath("//input[@id = 'input-telephone']");
-    By inputPasswordRegister = By.xpath("//input[@id = 'input-password']");
-    By inputPasswordConfirmRegister = By.xpath("//input[@id = 'input-confirm']");
+    By inputFirstNameRegister = By.id("input-firstname");
+    By inputLastNameRegister = By.id("input-lastname");
+    By inputEmailRegister = By.id("input-email");
+    By inputTelephoneRegister = By.id("input-telephone");
+    By inputPasswordRegister = By.id("input-password");
+    By inputPasswordConfirmRegister = By.id("input-confirm");
     By checkboxPrivacyPolicyRegister = By.xpath("//input[@type = 'checkbox']");
     By buttonContinueRegister = By.xpath("//input[@type = 'submit']");
     By messageFailure = By.xpath("//div[contains(text(), ' Warning: E-Mail Address is already registered!')]");

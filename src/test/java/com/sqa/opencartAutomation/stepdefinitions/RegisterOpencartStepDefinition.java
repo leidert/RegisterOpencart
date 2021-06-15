@@ -22,15 +22,15 @@ public class RegisterOpencartStepDefinition {
     @Steps
     ValidateAccountStep validateAccountStep;
 
-    @Given("^I want to register on the opencart page$")
-    public void iWantToRegisterOnTheOpencartPage(){
+    @Given("^that want to register on the opencart page$")
+    public void thatWantToRegisterOnTheOpencartPage() {
         homeOpencartStep.openBrowserStep();
         homeOpencartStep.selectCreateNewAccountStep();
         homeOpencartStep.pagesRestrictionStep();
     }
 
-    @When("^I enter the registration data$")
-    public void iEnterTheRegistrationData(List<DataUser> dataList) {
+    @When("^enter the registration data$")
+    public void enterTheRegistrationData(List<DataUser> dataList) {
         registerOpencartStep.registerUserStep(dataList.get(0));
     }
 

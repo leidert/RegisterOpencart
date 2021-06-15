@@ -128,7 +128,7 @@
             <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 03-06-2021 16:56</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 15-06-2021 09:40</span>
     <br style="clear:left"/>
 </div>
 
@@ -163,9 +163,9 @@
                 <table class="outcome-header">
                     <tr>
                         <td colspan="2" class="test-title-bar">
-                            <span class="outcome-icon"><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></span>
+                            <span class="outcome-icon"><i class='fa fa-exclamation-triangle error-icon fa-2x' title='ERROR'></i></span>
                             <span class="test-case-title">
-                                <span class="success-color">Register the users
+                                <span class="error-color">Register the users
                                     <span class="related-issue-title"></span>
                                 </span>
                             </span>
@@ -186,44 +186,77 @@
 
     <div id="beforetable"></div>
     <div id="contenttilttle">
+            <div class="screenshotFailure panel panel-danger">
+
+    <div style="display:block">
+        <div class="table">
+            <div class="row">
+                <div class="col-sm-10" style="padding-left:1.5em; padding-top:0.5em; padding-bottom:0.5em;">
+                    <span class="error-message error-message-title">Timeout exception: Expected condition failed: waiting for element to no longer be visible: By.xpath: //div[contains(text(), ' Warning: E-Mail Address is already registered!')] (tried for 5 second(s) with 250 milliseconds interval)Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'System info: host: 'DESKTOP-RHG4IA4', ip: '192.168.20.22', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'Driver info: driver.version: unknownBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'System info: host: 'DESKTOP-RHG4IA4', ip: '192.168.20.22', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'Driver info: driver.version: unknown</span>
+                </div>
+                <div class="col-sm-2">
+                    <a class="btn btn-warning details-button" data-toggle="collapse" href="#stacktraceModal-overall""
+                       role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="far fa-eye"></i> More details</a>
+                </div>
+             </div>
+        </div>
+    <div>
+
+    <!-- Details Section -->
+    <div class="row stacktrace-details">
+      <div class="col">
+        <div class="collapse multi-collapse" id="stacktraceModal-overall">
+            <div class="card">
+                <div class="card-header">
+                    <h4>org.openqa.selenium.TimeoutException </h4>
+                </div>
+                <div class="card-body">
+                    <div>
+                        <pre>com.sqa.opencartAutomation.steps.RegisterOpencartStep.validateFailedMessageStep(RegisterOpencartStep.java:28)<br />com.sqa.opencartAutomation.stepdefinitions.RegisterOpencartStepDefinition.heVerifiesTheMessageOnTheScreen(RegisterOpencartStepDefinition.java:39)<br />✽.He verifies the Congratulations! Your new account has been successfully created! on the screen(src/test/resources/feature/register_opencart.feature:9)<br /></pre>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+                <div class="panel-body">
+                    <a href="pagesource2166033991946192939.html.txt" target="_blank" class="btn btn-info">HTML Source</a>
+                </div>
+            </div>
         <div class="slider-wrapper theme-default">
             <div id="slider">
-                <img src="80ac6a21b58c03feead0d80f78139e482f2a3d9b72e93d22156847749fbb7788.png" title=" Example #1: {firstNameUser=leider, lastNameUser=tanos, emailUser=leider303@mail.com, telephoneUser=777777, passwordUser=12345, passwordConfirm=12345, message=Congratulations! Your new account has been successfully created!}" width="1366"/>
+                <img src="730073549e469ba019995136a11920936a34aef8cc27e2a0d30f9c220687d7a4.png" title=" Example #1: {firstNameUser=leider, lastNameUser=tanos, emailUser=leider307@mail.com, telephoneUser=777777, passwordUser=12345, passwordConfirm=12345, message=Congratulations! Your new account has been successfully created!}" width="1366"/>
+                <img src="730073549e469ba019995136a11920936a34aef8cc27e2a0d30f9c220687d7a4.png" title=" Given I want to register on the opencart page" width="1366"/>
+                <img src="730073549e469ba019995136a11920936a34aef8cc27e2a0d30f9c220687d7a4.png" title=" Open browser step" width="1366"/>
+                <img src="ff67da148088fb6421e3108717a3889fa39e522fc4b2326a684b4c3abedf2451.png" title=" Select create new account step" width="1366"/>
+                <img src="4df1f5b4c11bd30378442eb3e2fe6040b2970797f716e6779aedc636d6990b92.png" title=" Pages restriction step" width="1366"/>
+                <img src="4df1f5b4c11bd30378442eb3e2fe6040b2970797f716e6779aedc636d6990b92.png" title=" Given I want to register on the opencart page (completed)" width="1366"/>
+                <img src="2b53b39753f2316298d07b3041fbd411db86ef77cbe929a7234890ee7d3c6eed.png" title=" When I enter the registration data
+| firstNameUser | lastNameUser | emailUser | telephoneUser | passwordUser | passwordConfirm |
+| leider | tanos | leider307@mail.com | 777777 | 12345 | 12345 |" width="1366"/>
+                <img src="2b53b39753f2316298d07b3041fbd411db86ef77cbe929a7234890ee7d3c6eed.png" title=" Register user step: DataUser(firstNameUser=leider, lastNameUser=tanos, emailUser=leider307@mail.com, telephoneUser=777777, passwordUser=12345, passwordConfirm=12345)" width="1366"/>
+                <img src="2b53b39753f2316298d07b3041fbd411db86ef77cbe929a7234890ee7d3c6eed.png" title=" When I enter the registration data
+| firstNameUser | lastNameUser | emailUser | telephoneUser | passwordUser | passwordConfirm |
+| leider | tanos | leider307@mail.com | 777777 | 12345 | 12345 | (completed)" width="1366"/>
+                <img src="2b53b39753f2316298d07b3041fbd411db86ef77cbe929a7234890ee7d3c6eed.png" title=" Then He verifies the Congratulations! Your new account has been successfully created! on the screen" width="1366"/>
+                <img src="2b53b39753f2316298d07b3041fbd411db86ef77cbe929a7234890ee7d3c6eed.png" title=" Validate failed message step" width="1366"/>
+                <img src="80ac6a21b58c03feead0d80f78139e482f2a3d9b72e93d22156847749fbb7788.png" title=" Example #2: {firstNameUser=Arturo, lastNameUser=tanos, emailUser=leider107@mail.com, telephoneUser=777777, passwordUser=12345, passwordConfirm=12345, message=Congratulations! Your new account has been successfully created!}" width="1366"/>
                 <img src="80ac6a21b58c03feead0d80f78139e482f2a3d9b72e93d22156847749fbb7788.png" title=" Given I want to register on the opencart page" width="1366"/>
                 <img src="80ac6a21b58c03feead0d80f78139e482f2a3d9b72e93d22156847749fbb7788.png" title=" Open browser step" width="1366"/>
                 <img src="ff67da148088fb6421e3108717a3889fa39e522fc4b2326a684b4c3abedf2451.png" title=" Select create new account step" width="1366"/>
                 <img src="4df1f5b4c11bd30378442eb3e2fe6040b2970797f716e6779aedc636d6990b92.png" title=" Pages restriction step" width="1366"/>
                 <img src="4df1f5b4c11bd30378442eb3e2fe6040b2970797f716e6779aedc636d6990b92.png" title=" Given I want to register on the opencart page (completed)" width="1366"/>
-                <img src="df0c8c89e73087b218fc6a07a78c24dd7d9b9e0cbcba53231844f69abd199920.png" title=" When I enter the registration data
+                <img src="467da0a065bfe281aaa447f6ffc98342ac1f1fb6d8274ceba50399040d5dcdfc.png" title=" When I enter the registration data
 | firstNameUser | lastNameUser | emailUser | telephoneUser | passwordUser | passwordConfirm |
-| leider | tanos | leider303@mail.com | 777777 | 12345 | 12345 |" width="1366"/>
-                <img src="df0c8c89e73087b218fc6a07a78c24dd7d9b9e0cbcba53231844f69abd199920.png" title=" Register user step: DataUser(firstNameUser=leider, lastNameUser=tanos, emailUser=leider303@mail.com, telephoneUser=777777, passwordUser=12345, passwordConfirm=12345)" width="1366"/>
-                <img src="df0c8c89e73087b218fc6a07a78c24dd7d9b9e0cbcba53231844f69abd199920.png" title=" When I enter the registration data
+| Arturo | tanos | leider107@mail.com | 777777 | 12345 | 12345 |" width="1366"/>
+                <img src="467da0a065bfe281aaa447f6ffc98342ac1f1fb6d8274ceba50399040d5dcdfc.png" title=" Register user step: DataUser(firstNameUser=Arturo, lastNameUser=tanos, emailUser=leider107@mail.com, telephoneUser=777777, passwordUser=12345, passwordConfirm=12345)" width="1366"/>
+                <img src="467da0a065bfe281aaa447f6ffc98342ac1f1fb6d8274ceba50399040d5dcdfc.png" title=" When I enter the registration data
 | firstNameUser | lastNameUser | emailUser | telephoneUser | passwordUser | passwordConfirm |
-| leider | tanos | leider303@mail.com | 777777 | 12345 | 12345 | (completed)" width="1366"/>
-                <img src="df0c8c89e73087b218fc6a07a78c24dd7d9b9e0cbcba53231844f69abd199920.png" title=" Then He verifies the Congratulations! Your new account has been successfully created! on the screen" width="1366"/>
-                <img src="df0c8c89e73087b218fc6a07a78c24dd7d9b9e0cbcba53231844f69abd199920.png" title=" Validate failed message step" width="1366"/>
-                <img src="df0c8c89e73087b218fc6a07a78c24dd7d9b9e0cbcba53231844f69abd199920.png" title=" Validate message successfully register step: Congratulations! Your new account has been successfully created!" width="1366"/>
-                <img src="df0c8c89e73087b218fc6a07a78c24dd7d9b9e0cbcba53231844f69abd199920.png" title=" Then He verifies the Congratulations! Your new account has been successfully created! on the screen (completed)" width="1366"/>
-                <img src="df0c8c89e73087b218fc6a07a78c24dd7d9b9e0cbcba53231844f69abd199920.png" title=" Example #1: {firstNameUser=leider, lastNameUser=tanos, emailUser=leider303@mail.com, telephoneUser=777777, passwordUser=12345, passwordConfirm=12345, message=Congratulations! Your new account has been successfully created!} (completed)" width="1366"/>
-                <img src="2128e9cfde7805e48fa02cc5b7c2cc1c2142132e2a61107cd5b90397954bc94b.png" title=" Example #2: {firstNameUser=Arturo, lastNameUser=tanos, emailUser=leider103@mail.com, telephoneUser=777777, passwordUser=12345, passwordConfirm=12345, message=Congratulations! Your new account has been successfully created!}" width="1366"/>
-                <img src="2128e9cfde7805e48fa02cc5b7c2cc1c2142132e2a61107cd5b90397954bc94b.png" title=" Given I want to register on the opencart page" width="1366"/>
-                <img src="2128e9cfde7805e48fa02cc5b7c2cc1c2142132e2a61107cd5b90397954bc94b.png" title=" Open browser step" width="1366"/>
-                <img src="ff67da148088fb6421e3108717a3889fa39e522fc4b2326a684b4c3abedf2451.png" title=" Select create new account step" width="1366"/>
-                <img src="4df1f5b4c11bd30378442eb3e2fe6040b2970797f716e6779aedc636d6990b92.png" title=" Pages restriction step" width="1366"/>
-                <img src="4df1f5b4c11bd30378442eb3e2fe6040b2970797f716e6779aedc636d6990b92.png" title=" Given I want to register on the opencart page (completed)" width="1366"/>
-                <img src="df0c8c89e73087b218fc6a07a78c24dd7d9b9e0cbcba53231844f69abd199920.png" title=" When I enter the registration data
-| firstNameUser | lastNameUser | emailUser | telephoneUser | passwordUser | passwordConfirm |
-| Arturo | tanos | leider103@mail.com | 777777 | 12345 | 12345 |" width="1366"/>
-                <img src="df0c8c89e73087b218fc6a07a78c24dd7d9b9e0cbcba53231844f69abd199920.png" title=" Register user step: DataUser(firstNameUser=Arturo, lastNameUser=tanos, emailUser=leider103@mail.com, telephoneUser=777777, passwordUser=12345, passwordConfirm=12345)" width="1366"/>
-                <img src="df0c8c89e73087b218fc6a07a78c24dd7d9b9e0cbcba53231844f69abd199920.png" title=" When I enter the registration data
-| firstNameUser | lastNameUser | emailUser | telephoneUser | passwordUser | passwordConfirm |
-| Arturo | tanos | leider103@mail.com | 777777 | 12345 | 12345 | (completed)" width="1366"/>
-                <img src="df0c8c89e73087b218fc6a07a78c24dd7d9b9e0cbcba53231844f69abd199920.png" title=" Then He verifies the Congratulations! Your new account has been successfully created! on the screen" width="1366"/>
-                <img src="df0c8c89e73087b218fc6a07a78c24dd7d9b9e0cbcba53231844f69abd199920.png" title=" Validate failed message step" width="1366"/>
-                <img src="df0c8c89e73087b218fc6a07a78c24dd7d9b9e0cbcba53231844f69abd199920.png" title=" Validate message successfully register step: Congratulations! Your new account has been successfully created!" width="1366"/>
-                <img src="df0c8c89e73087b218fc6a07a78c24dd7d9b9e0cbcba53231844f69abd199920.png" title=" Then He verifies the Congratulations! Your new account has been successfully created! on the screen (completed)" width="1366"/>
-                <img src="df0c8c89e73087b218fc6a07a78c24dd7d9b9e0cbcba53231844f69abd199920.png" title=" Example #2: {firstNameUser=Arturo, lastNameUser=tanos, emailUser=leider103@mail.com, telephoneUser=777777, passwordUser=12345, passwordConfirm=12345, message=Congratulations! Your new account has been successfully created!} (completed): <span class='success-color'>SUCCESS</span>" width="1366"/>
+| Arturo | tanos | leider107@mail.com | 777777 | 12345 | 12345 | (completed)" width="1366"/>
+                <img src="467da0a065bfe281aaa447f6ffc98342ac1f1fb6d8274ceba50399040d5dcdfc.png" title=" Then He verifies the Congratulations! Your new account has been successfully created! on the screen" width="1366"/>
+                <img src="467da0a065bfe281aaa447f6ffc98342ac1f1fb6d8274ceba50399040d5dcdfc.png" title=" Validate failed message step: <span class='error-color'>ERROR</span>" width="1366"/>
             </div>
         </div>
 

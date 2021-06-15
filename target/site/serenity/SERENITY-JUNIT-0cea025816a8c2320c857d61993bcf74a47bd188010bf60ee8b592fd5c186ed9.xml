@@ -1,1 +1,17 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="opencart register" skipped="0" tests="2" time="46.76" timestamp="2021-06-03 04:56:52"><testcase name="Register the users"/></testsuite>
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="2" failures="0" name="opencart register" skipped="0" tests="2" time="19.65" timestamp="2021-06-15 09:40:34"><testcase name="Register the users"><error message="Expected condition failed: waiting for element to no longer be visible: By.xpath: //div[contains(text(), ' Warning: E-Mail Address is already registered!')] (tried for 5 second(s) with 250 milliseconds interval)&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'DESKTOP-RHG4IA4', ip: '192.168.20.22', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'&#10;Driver info: driver.version: unknown&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'DESKTOP-RHG4IA4', ip: '192.168.20.22', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'&#10;Driver info: driver.version: unknown" type="org.openqa.selenium.TimeoutException">Expected condition failed: waiting for element to no longer be visible: By.xpath: //div[contains(text(), ' Warning: E-Mail Address is already registered!')] (tried for 5 second(s) with 250 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-RHG4IA4', ip: '192.168.20.22', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'
+Driver info: driver.version: unknown
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-RHG4IA4', ip: '192.168.20.22', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'
+Driver info: driver.version: unknown</error><system-err>Expected condition failed: waiting for element to no longer be visible: By.xpath: //div[contains(text(), ' Warning: E-Mail Address is already registered!')] (tried for 5 second(s) with 250 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-RHG4IA4', ip: '192.168.20.22', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'
+Driver info: driver.version: unknown
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-RHG4IA4', ip: '192.168.20.22', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'
+Driver info: driver.version: unknown&#13;
+com.sqa.opencartAutomation.steps.RegisterOpencartStep.validateFailedMessageStep(RegisterOpencartStep.java:28)&#13;
+com.sqa.opencartAutomation.stepdefinitions.RegisterOpencartStepDefinition.heVerifiesTheMessageOnTheScreen(RegisterOpencartStepDefinition.java:39)&#13;
+✽.He verifies the Congratulations! Your new account has been successfully created! on the screen(src/test/resources/feature/register_opencart.feature:9)&#13;
+</system-err></testcase></testsuite>

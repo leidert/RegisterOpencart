@@ -8,7 +8,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 
 public class RegisterOpencartStep {
 
-    @Autowired
+    //@Autowired
     RegisterOpencartPage registerOpencartPage;
 
     @Step

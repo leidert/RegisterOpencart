@@ -8,7 +8,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 
 public class ValidateAccountStep {
 
-    @Autowired
+    //@Autowired
     ValidateAccountPage validateAccountPage;
 
     @Step
